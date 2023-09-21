@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+.navbar_header {
+    background-color: rgba(65,111,137,255);
+    height: 100px;
+}
+
+.navbar_logo_and_title {
+    
+}
+
+.navbar_logo_and_title {
+    width: 75%;
+    height: 50%;
+}
+
+.navbar_logo_and_title img {
+    float: left;
+    height: 100px;
+}
+
+.navbar_logo_and_title h1 {
+    padding-top: 25px;
+    padding-left: 25px;
+    color: white;
+}
+
+.navbar_buttons {
+    float: right;
+}
+
+.navbar_buttons .btn {
+    color: white;
+}
+
