@@ -156,25 +156,26 @@
     
     .navbar_logo_and_title img {
         float: left;
-        height: 95%;
+        height: 75%;
+        padding-top: 15px;
     }
     
     .navbar_logo_and_title h1 {
         padding-top: 25px;
         padding-left: 25px;
         color: white;
+        font-size: medium;
     }
     
     .navbar_buttons {
         display: flex;   
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: flex-end;
         float: right;
         width: 50%;
         height: 100px;
         padding-top: 30px;
         font-weight: 500;
-        font-size: x-large;
         text-align: center;
     }
     
@@ -183,7 +184,7 @@
         width: auto;
         height: fit-content;
         margin-right: 10px;
-        font-size: large;
+        font-size: small;
         font-weight: 500;
     }
     
@@ -207,13 +208,14 @@
     .card {
         width: 100%;
         height: 500px;
+        margin-bottom: 10px;
     }
 
     #carouselExampleAutoplaying {
         max-width: 80%;
         height: 250px;
         padding: 50px;
-        margin-left: 25%;
+        margin-left: 10%;
         margin-bottom: 10%;
         background-color: rgba(170,170,255,255);
         justify-content: center;
@@ -242,13 +244,16 @@
     }
     
     .footer_logo_and_title img {
-        height: 75%;
+        float: left;
+        height: 55%;
+        padding-top: 20px;
     }
     
     .footer_logo_and_title h2 {
         padding-top: 35px;
         padding-left: 25px;
         color: white;
+        font-size: large;
     }
     
     .footer_socials {
