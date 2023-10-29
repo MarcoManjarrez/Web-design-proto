@@ -136,6 +136,12 @@
     .footer_socials i {
         padding: 10px;
     }    
+    .label{
+        font-family: Poppins;
+    }
+    .card-header{
+        font-family: Poppins;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -284,6 +290,9 @@
     .footer_socials i {
         padding: 10px;
     }    
+    label{
+        font-family: Poppins;
+    }
 }
 
 @media (max-width: 700px) {
@@ -432,6 +441,12 @@
     .footer_socials i {
         padding: 10px;
     }
+    .label{
+        font-family: Poppins;
+    }
+    .card-header{
+        font-family: Poppins;
+    }
 }
 
 @media (max-width: 480px) {
@@ -576,4 +591,11 @@
     .footer_socials i {
         padding: 10px;
     }    
+
+    .label{
+        font-family: Poppins;
+    }
+    .card-header{
+        font-family: Poppins;
+    }
 }

@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Diabetes - Information</title>
-        <link rel="stylesheet" href="./CSS/calculator.css">
+        <link rel="stylesheet" href="../CSS/calculator.css">
         <link href="./images/Imagen de WhatsApp 2023-09-21 a las 09.18.09.jpg" type="image/png" rel="icon" sizes="32x32"/>
     
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -21,7 +21,7 @@
     
         <div class="navbar_header">
             <div class="navbar_logo_and_title">
-                <a href="./index.html"><img src="./images/Imagen de WhatsApp 2023-09-21 a las 09.18.09.jpg"/></a>
+                <a href="./index.html"><img src="../images/Imagen de WhatsApp 2023-09-21 a las 09.18.09.jpg"/></a>
                 <h1>Insuline Unit Calculator</h1>
             </div>
             <div class="navbar_buttons">
@@ -30,29 +30,44 @@
             </div>
         </div>
         
-        <div class="note_calc">
-            <h5>Note: This calculator is able to calculate the units of insuline necessary for people with Diabetes type 1.
-                The calculator has a base data for the range of glucose in minimum 70 and maximum 120, the user must insert
-                the current level of glucose, ratio of HC (hydrocarbons) per unit of insuline and the amount to consume in grams.
-            </h5>
-        </div>
-
-        <div class="calculator">
-            <div class="calculator_inputs">
-                <input class="input_current_glucose_level" type="text" name="current_glucose_level" size="25" placeholder="Current glucose level">
-            <input class="input_HC_ratio" type="text" name="HC_ratio" size="25" placeholder="HC Ratio">
-            <input class="input_HC_to_consume" type="text" name="HC_to_consume" size="25" placeholder="HC to consume (gr)">
+        <div style="width: 60%;"class="card text-center mx-auto">
+            <div class="card-header">
+              Insuline Calculator
             </div>
-            <div>
-                <input id="btn_calculate" class="btn btn-primary" type="submit" name="btn_calculate" value="Calculate">
-                <label id="result" for="btn_calculate">R: </label>
+            <div class="card-body">
+                <div class="note_calc" style="font-family: Poppins;">
+                    <h5>Note: This calculator is able to calculate the units of insuline necessary for people with Diabetes type 1.
+                        The calculator has a base data for the range of glucose in minimum 70 and maximum 120, the user must insert
+                        the current level of glucose, ratio of HC (hydrocarbons) per unit of insuline and the amount to consume in grams.
+                    </h5>
+                </div>
+        
+                <div class="calculator">
+                    <div class="calculator_inputs">
+                        <input class="input_current_glucose_level" type="text" name="current_glucose_level" size="25" placeholder="Current glucose level">
+                    <input class="input_HC_ratio" type="text" name="HC_ratio" size="25" placeholder="HC Ratio">
+                    <input class="input_HC_to_consume" type="text" name="HC_to_consume" size="25" placeholder="HC to consume (gr)">
+                    </div>
+                    <div>
+                        <input id="btn_calculate" class="btn btn-primary" type="submit" name="btn_calculate" value="Calculate">
+                        <div class="card d-flex align-items-center justify-content-center" style="height: 60px;">
+                            <div class="card-body">
+                                <label style="font-family: Poppins;" id="result" for="btn_calculate">R: </label>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="./index.html" role="button" class="btn" id="Info">Go back to the main page</a>
+                </div>
             </div>
-            
-        </div>
+            <div class="card-footer text-body-secondary">
+              
+            </div>
+          </div>
+        
     
         <div class="footer">
           <div class="footer_logo_and_title">
-              <a href="./index.html"><img src="./images/Imagen de WhatsApp 2023-09-21 a las 09.18.09.jpg"/></a>
+              <a href="./index.html"><img src="../images/Imagen de WhatsApp 2023-09-21 a las 09.18.09.jpg"/></a>
               <h2>Insuline Unit Calculator</h2>
           </div>
           <div class="footer_socials">
