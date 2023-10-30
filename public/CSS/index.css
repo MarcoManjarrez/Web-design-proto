@@ -416,6 +416,10 @@
         margin: 0;
         font-family: Poppins;
     }
+
+    h1{
+        width: 20px;
+    }
     
     .navbar_header {
         background-color: rgba(65,111,137,255);
