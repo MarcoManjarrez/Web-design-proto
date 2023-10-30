@@ -546,6 +546,8 @@
 
     .footer_socials i {
         padding: 10px;
+        max-width: 50%;
+        display: flex;
     }    
 }
 
