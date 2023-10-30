@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diabetes - Information</title>
-    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Error <%= error %></title>
     <link href="./images/Imagen de WhatsApp 2023-09-21 a las 09.18.09.jpg" type="image/png" rel="icon" sizes="32x32"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -16,3 +15,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/>
     <script src="https://kit.fontawesome.com/4dffdef69b.js" crossorigin="anonymous"></script>
 </head>
+<body>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Error: <%= message %></h1>
+        </div>
+    </div>
+<%- include("partials/footer"); -%>
